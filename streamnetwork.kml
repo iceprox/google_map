@@ -3,7 +3,7 @@
   <Document>
     <name>streamnetwork</name>
     <description>Kalush</description>
-    <Style id="icon-1899-0288D1-nodesc-normal">
+    <Style id="highlightPlacemark">
       <IconStyle>
         <color>ffd18802</color>
         <scale>1</scale>
@@ -19,7 +19,7 @@
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <Style id="icon-1899-0288D1-nodesc-highlight">
+    <Style id="highlightPlacemark">
       <IconStyle>
         <color>ffd18802</color>
         <scale>1</scale>
@@ -35,21 +35,21 @@
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <StyleMap id="icon-1899-0288D1-nodesc">
+    <StyleMap id="exampleStyleMap">
       <Pair>
         <key>normal</key>
-        <styleUrl>#icon-1899-0288D1-nodesc-normal</styleUrl>
+        <styleUrl>#highlightPlacemark</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#icon-1899-0288D1-nodesc-highlight</styleUrl>
+        <styleUrl>#highlightPlacemark</styleUrl>
       </Pair>
     </StyleMap>
     <Folder>
       <name>Шар без назви</name>
       <Placemark>
         <name>Какакая 9</name>
-        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <styleUrl>#highlightPlacemark</styleUrl>
         <Point>
           <coordinates>
             24.3590015,49.0223534,0
@@ -67,7 +67,7 @@
       </Placemark>
       <Placemark>
         <name>Каракая 2</name>
-        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <styleUrl>#highlightPlacemark</styleUrl>
         <Point>
           <coordinates>
             24.3593609,49.023771,0
