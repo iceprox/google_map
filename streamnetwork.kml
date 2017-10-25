@@ -1,1 +1,880 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>streamnetwork</name>
+    <description>Kalush</description>
+    <Style id="icon-1899-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-pin-container-bg_4x.png,icons/onion/SHARED-mymaps-pin-container_4x.png,icons/onion/1899-blank-shape_pin_4x.png&highlight=ff000000,0288D1,ff000000&scale=2.0</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-pin-container-bg_4x.png,icons/onion/SHARED-mymaps-pin-container_4x.png,icons/onion/1899-blank-shape_pin_4x.png&highlight=ff000000,0288D1,ff000000&scale=2.0</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Шар без назви</name>
+      <Placemark>
+        <name>Какакая 9</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3590015,49.0223534,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Какакая 4</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3584705,49.0232785,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Каракая 2</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3593609,49.023771,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Сівецька 7</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3581486,49.0238484,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Каракая 8</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3574619,49.0234263,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Сівецька 8</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3590927,49.0246856,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Сівецька 10</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3582773,49.0244605,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Сівецька 6</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3596345,49.0242705,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Сівецька 4</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3602621,49.0249459,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Винниченка 1</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3618876,49.0240208,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Сівецька 1</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3611312,49.0244781,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Винниченка 3</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3623275,49.0231062,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Українська 10а</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3599618,49.0212452,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Українська 8а</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.360466,49.0214352,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Українська 6а</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3609703,49.0216076,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Українська 2а</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3615443,49.0218151,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Винниченка 9</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3622684,49.0219137,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Підвальна 3</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3666941,49.0244605,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Каракая 5</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3616784,49.0223921,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Каракая 3</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3602192,49.0232504,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Дзвонарська 19</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3633628,49.0246997,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Дзвонарська 3</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3669516,49.0250128,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Винниченка 4</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3648273,49.0215689,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Винниченка 6</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3641031,49.0225469,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Винниченка 8</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3638241,49.0229795,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Винниченка 10</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3633842,49.0237007,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Винниченка 12</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3640172,49.0238062,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Підвальна 2а</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3654764,49.0236444,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Дзвонарська 5</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3653691,49.0244148,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Підвальна 2б</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3659592,49.0235459,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Підвальна 6</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3664634,49.0223287,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Підвальна 8</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3664956,49.0218644,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Підвальна 17</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3675256,49.0212453,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Грушевського 26</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3681908,49.0214563,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Винниченка 2</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3653584,49.0208161,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Підвальна 10</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3652296,49.0218996,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Підвальна 14</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3658412,49.0220262,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Каракая 17</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3572366,49.0217166,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Підвальна 11</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3673325,49.0225539,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Підвальна 13</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3670642,49.0222162,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Підвальна 7</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3669891,49.0236866,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Українська 18</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3596613,49.0204221,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Пекарська 1 ПП "ВІБЛИЙ"]]></name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3629122,49.0166296,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Грушевського 104</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3604016,49.018853,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Грушевського 99</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3618822,49.0190149,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Грушевського 88</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3602622,49.0191767,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Рубчака 5</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3594468,49.0176217,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Рубчака 7</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3596399,49.0177624,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Рубчака 9</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.359597,49.0176569,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Рубчака 15</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3596077,49.0176569,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Рубчака 2</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3596117,49.0176411,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Писарська 57</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3566036,49.0152153,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Рубчака 1</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3595929,49.0176384,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Рубчака 3</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3595929,49.0176375,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Рубчака 13</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3596117,49.0176419,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Рубчака 11</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3596104,49.0176455,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Грушевського 51</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3657339,49.020204,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Грушевського 57</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3652403,49.0201195,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Мельника 6</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3652833,49.0188038,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Писарська 16</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3659806,49.0181142,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Писарська 17</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3664312,49.0181635,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Грушевського 54</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3649721,49.0201969,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Грушевського 77</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3634486,49.0194722,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Писарська 44</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3595111,49.0155741,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Писарська 36</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3615818,49.0161441,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Писарська 41</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3598115,49.0156586,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Писарська 40</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3611097,49.0160737,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Писарська 34</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3618178,49.0161933,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Писарська 31</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3629014,49.0164678,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Писарська 29Г</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.36288,49.0164466,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Підвальна 15</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3669677,49.0215759,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Мартинця 6</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3704224,49.0193948,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Мартинця 6а</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3704331,49.0193808,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Мартинця 3</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3704438,49.0196129,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Мартинця 5</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3704653,49.0196059,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Мартинця 2</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3704331,49.0193799,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Мартинця 4</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3704304,49.019379,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Гірника 3</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3684804,49.019634,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Гірника 5</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3684804,49.019627,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Гірника 10</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3683517,49.019627,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Мартинця 10</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3704224,49.0193737,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Мартинця 8</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3704358,49.019379,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Мартинця 17</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3709266,49.0194159,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Мартинця 19</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3710661,49.0193315,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Мартинця 11</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.370476,49.019634,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Мартинця 20</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3711627,49.0191556,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Мартинця 22</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3711627,49.0191442,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Мартинця 25</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3716562,49.0193033,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Мартинця 23</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3715167,49.0193245,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Мартинця 2а</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3704304,49.0193781,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Мартинця 45</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3736947,49.0193033,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Мартинця 39\Г</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            24.3729436,49.0192822,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
